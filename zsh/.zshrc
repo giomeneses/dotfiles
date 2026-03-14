@@ -62,7 +62,7 @@ autoload -Uz cursor_mode && cursor_mode
 # auto complete hidden files
 _comp_options+=(globdots)
 source ~/dotfiles/zsh/plugins/completion.zsh
-source ~/dotfiles/zsh/plugins/magic-enter/magic-enter.zsh
+source ~/dotfiles/zsh/plugins/magic-enter.zsh
 source ~/dotfiles/zsh/functions.zsh
 source ~/dotfiles/zsh/plugins/zsh-z.plugin.zsh
 source ~/dotfiles/zsh/plugins/colored-man-pages.plugin.zsh
